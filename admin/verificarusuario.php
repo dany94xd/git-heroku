@@ -3,8 +3,8 @@
 
 //AQUI CONECTAMOS A LA BASE DE DATOS DE POSTGRES
 
-$conex = "host=localhost port=5432 dbname=prueba1 user=postgres password=postgres";
-//$conex = "host=ec2-23-23-248-247.compute-1.amazonaws.com port=5432 dbname=d88jp3b8ks58pn user=dcswcsqsfzpezr password=c7dcdfb6263074314a04ebfd7b86d1b8adab3906a4b1251fe79feab8d881611c";
+//$conex = "host=localhost port=5432 dbname=prueba1 user=postgres password=postgres";
+$conex = "host=ec2-54-243-255-57.compute-1.amazonaws.com port=5432 dbname=d2od3dbfrmf7pe user=dgugoawgtwemle password=5994a70a765304f61016c686267cb3abf82052945eb6269e8fa7896ac30b3867";
 //$user="obihwaohfkvyyt password=ea5858855a8a07277db5887f17e8080c0467704a2ec10342e726c561461b5352";
 $cnx = pg_connect($conex) or die ("<h1>Error de conexion.</h1> ". pg_last_error());
 session_start();
